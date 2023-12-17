@@ -1,0 +1,6 @@
+#include<stdio.h>
+int main()
+{
+    printf("\nHello  Good morning");
+    printf("\nwelcome to the C programming");
+}
