@@ -1,0 +1,14 @@
+//wap to accept 5 numbers from the user then find greatest number.
+
+#include<stdio.h>
+int main()
+{
+    int a,b,c,d,e,f,gr;
+    printf("enter your number");
+    scanf("%d%d%d%d%d",&a,&b,&c,&d,&e);
+    gr=(a>b) && (a>c) && (a>d) && (a>e)?a:
+       (b>c) && (b>d) && (b>e)?b:
+       (c>d) && (c>e) ? c:
+       (d>e) ?d: e;
+       printf("greatest numberis %d",gr);
+}
