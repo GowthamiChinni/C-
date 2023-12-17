@@ -1,0 +1,33 @@
+//wap to accept current bill amount from the customer then calculate the discount and payable bill amount
+
+#include<stdio.h>
+int main()
+{
+    float billAmount,discount;
+    printf("enter the current bill amount");
+    scanf("%f",&billAmount);
+    if(billAmount>=50000)
+    {
+        discount=billAmount*0.5;
+    }
+    else if(billAmount>=30000)
+    {
+        discount=billAmount*0.35;
+    }
+    else if(billAmount>=10000)
+    {
+        discount=billAmount*0.25;
+        
+    }
+    else if(billAmount>=1000)
+    {
+        discount=billAmount*0.15;
+    }
+    else
+    {
+        discount=billAmount*0;
+    }
+    printf("your current bill is %f\n",billAmount);
+    printf("your discount amount is %f\n",discount);
+    printf("your payable amount is %f\n",billAmount-discount);
+}
