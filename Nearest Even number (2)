@@ -1,0 +1,19 @@
+#include<stdio.h>
+int main()
+{
+    int a;
+    printf("enter your number");
+    scanf("%d",&a);
+    if(a%2==0)
+    {
+        a=a+1;
+    
+    printf("%d is the nearest number",a);
+    }
+    else
+    {
+        a=a+1;
+        printf("%d is the nearest number",a);
+    }
+}
+
