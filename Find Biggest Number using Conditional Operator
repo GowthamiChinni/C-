@@ -1,0 +1,21 @@
+//wap to find the biggest number in the given 2 numbers using conditional operator.//
+
+#include<stdio.h>
+int main()
+{
+    int x,y;
+    printf("enter your number");
+    scanf("%d%d",&x,&y);
+    (x>y)?printf("%d is greater",x):printf("%d is greater",y);
+}
+
+/*int main()
+{
+    int x,y,z,g,gr;
+    printf("enter your number");
+    scanf("%d%d%d",&x,&y,&z);
+    g=(x>y)?x:y;
+    gr=(g>z)?g:z;
+    printf("%d is greater",gr);
+}*/
+
