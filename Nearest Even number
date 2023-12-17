@@ -1,0 +1,15 @@
+//wap to print nearest even number for the users given numbers
+
+#include<stdio.h>
+int main()
+{
+    int a;
+    printf("enter your number");
+    scanf("%d",&a);
+    if(a%2==1)
+    {
+        a=a+1;
+        printf("%d is nearest even number ",a);
+    }
+    
+}    
