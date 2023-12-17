@@ -1,0 +1,11 @@
+#include<stdio.h>
+int main()
+{
+    int x,y,z,g,g1;
+    printf("enter 3 numbers");
+    scanf("%d%d%d",&x,&y,&z);
+    g=(x>y)?x:y;
+    g1=(g>z)?g:z;
+    printf("%d is greater",g1);
+}
+
