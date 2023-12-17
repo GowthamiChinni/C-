@@ -1,0 +1,16 @@
+//Swapping with third variable
+
+#include<stdio.h>
+int main()
+{
+    int x,y,z;
+    printf("enter your number");
+    scanf("%d%d",&x,&y);
+    printf("Before Swapping\n");
+    printf("x=%d\t y=%d\n",x,y);
+    z=x;
+    x=y;
+    y=z;
+    printf("After Swapping\n");
+    printf("x=%d\t y=%d\n",x,y);
+}
