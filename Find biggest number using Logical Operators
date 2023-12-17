@@ -1,0 +1,11 @@
+//logical operators
+
+#include<stdio.h>
+int main()
+{
+    int x,y,z,gr;
+    printf("enter your number");
+    scanf("%d%d%d",&x,&y,&z);
+    gr=((x>y) && (x>z))? x : ((y>z)? y:z);
+    printf("greatest number is %d",gr);
+}
